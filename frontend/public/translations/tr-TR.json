@@ -1,0 +1,115 @@
+{
+  "": {
+    "items": {
+      "user": {
+        "zero": "{count} Kullanıcı",
+        "one": "{count} Kullanıcı",
+        "two": "{count} Kullanıcılar",
+        "few": "{count} Kullanıcılar",
+        "many": "{count} Kullanıcılar",
+        "other": "{count} Kullanıcılar"
+      }
+    },
+    "translations": {
+      "common": {
+        "button": {
+          "create": "Oluştur",
+          "add": "Ekle",
+          "save": "Kaydet",
+          "saveAndStay": "Kaydet Ve Sayfada Kal",
+          "delete": "Sil",
+          "update": "Güncelle",
+          "close": "Kapat",
+          "cancel": "İptal Et"
+        },
+        "input": {
+          "search": "Ara..."
+        },
+        "form": {
+          "name": "İsim",
+          "description": "Açıklama"
+        },
+        "table": {
+          "pagination": {
+            "results": "Showing {start} to {end} of {total} results.",
+            "empty": "Hiçbir öğe bulunamadı."
+          }
+        },
+        "server": {
+          "noAllocation": "Tahsis Edilmiş Port Bulunamadı",
+          "state": {
+            "suspended": "Suspended",
+            "restoringBackup": "Yedeğe Geri Yükleniyor",
+            "installing": "Kuruluyor",
+            "InstallFailed": "Kurulum Başarısız Oldu"
+          }
+        },
+        "unlimited": "Limitsiz"
+      },
+      "pages": {
+        "auth": {},
+        "account": {
+          "home": {
+            "tooltip": {
+              "removeFromGroup": "Gruptan Çıkar",
+              "addToGroup": "Gruba Ekle",
+              "noGroups": "Sunucuyu eklemek için uygun grup yok",
+              "noGroup": "Bu sunucu herhangi bir grupta değil"
+            },
+            "tabs": {
+              "groupedServers": {
+                "title": "Gruplanmış Sunucular",
+                "page": {
+                  "button": {
+                    "createGroup": "Grup Oluştur"
+                  },
+                  "modal": {
+                    "createServerGroup": {
+                      "title": "Sunucu Grubu Oluştur",
+                      "toast": {
+                        "created": "Sunucu grubu oluşturuldu."
+                      }
+                    },
+                    "editServerGroup": {
+                      "title": "Sunucu Grubunu Düzenle",
+                      "toast": {
+                        "updated": "Sunucu grubu güncellendi."
+                      }
+                    },
+                    "deleteServerGroup": {
+                      "title": "Sunucu Grubunun Silinmesini Onayla",
+                      "content": "Hesabınızdan {group} grubunu silmek istediğinizden emin misiniz?",
+                      "toast": {
+                        "deleted": "Sunucu grubu silindi."
+                      }
+                    }
+                  },
+                  "noGroups": "Hiçbir grup bulunamadı, bir grup oluşturmanın zamanı gelmedi mi?"
+                }
+              },
+              "allServers": {
+                "title": "Tüm Sunucular",
+                "page": {
+                  "input": {
+                    "showOtherUsersServers": "Diğer kullanıcıların sunucularını göster"
+                  },
+                  "modal": {
+                    "addToServerGroup": {
+                      "title": "Sunucu Grubuna {sunucu} eklemek istediğine emin misin?",
+                      "form": {
+                        "serverGroup": "Sunucu Grubu"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "noServers": "Sunucu bulunamadı, yeni bir sunucu ekleme zamanı gelmedi mi?"
+          }
+        },
+        "admin": {},
+        "server": {}
+      }
+    }
+  }
+}
