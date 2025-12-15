@@ -31,7 +31,7 @@
         },
         "table": {
           "pagination": {
-            "results": "Showing {start} to {end} of {total} results.",
+            "results": "{total} sonucun {start} ila {end} arası gösteriliyor..",
             "empty": "Hiçbir öğe bulunamadı."
           }
         },
